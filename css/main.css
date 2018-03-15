@@ -3,11 +3,11 @@ html {
 }
 
 h1 {
-  font-family: 'Cagliostro', sans-serif;
+  font-family: Cagliostro, sans-serif;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: rgba(255, 255, 255, 0.5);
 }
