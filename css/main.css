@@ -1,20 +1,63 @@
 html {
   background-color: #144514;
 }
-h1, h2, h3, h4 {
+
+.headings {
   font-family: Cagliostro, sans-serif;
+  color: #D8CB2F;
 }
 
-p {
+.body-copy {
   font-family: Roboto, sans-serif;
+  color: #7C4800;
 }
 
 .light-green {
   background-color: rgba(255, 255, 255, .5);
 }
 
-.text {
-  position: absolute;
-  right: 20em;
-  top: 6em;
+@media only screen and (min-width: 20em) {
+  .text {
+    position: absolute;
+    right: 8.5em;
+    top: 2.2em;
+}
+
+}
+
+@media only screen and (min-width: 25em) {
+  .text {
+    position: absolute;
+    right: 11.3em;
+    top: 2.2em;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+  .text {
+    position: absolute;
+    right: 20em;
+    top: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+  .text {
+    position: absolute;
+    right: 13em;
+    top: 12em;
+  }
+
+}
+
+
+@media only screen and (min-width: 90em) {
+  .text {
+    position: absolute;
+    right: 11em;
+    top: 12em;
+  }
+
 }
