@@ -15,53 +15,35 @@ html {
 .light-green {
   background-color: rgba(255, 255, 255, .5);
 }
+ .w {
+   min-width: 600px;
+ }
 
-@media only screen and (min-width: 20em) {
-
-  .text {
-    position: absolute;
-    right: 8.5em;
-    top: 2.2em;
+hr {
+  border-top: 1px solid #d8cb2f;
 }
 
-}
+ .p {
+   position: absolute;
+   bottom: 2em;
+   right: 0;
+ }
 
-@media only screen and (min-width: 25em) {
+ @media only screen and (min-width: 38em) {
 
-  .text {
-    position: absolute;
-    right: 11.3em;
-    top: 2.2em;
-}
+  .p {
+     position: absolute;
+     bottom: 0;
+   }
 
-}
+ }
 
-@media only screen and (min-width: 38em) {
 
-  .text {
-    position: absolute;
-    right: 20em;
-    top: 6em;
-  }
+ @media only screen and (min-width: 60em) {
 
-}
+  .p {
+     position: absolute;
+     bottom: 15em;
+   }
 
-@media only screen and (min-width: 60em) {
-
-  .text {
-    position: absolute;
-    right: 13em;
-    top: 12em;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  .text {
-    position: absolute;
-    right: 11em;
-    top: 12em;
-  }
-
-}
+ }
