@@ -4,12 +4,12 @@ html {
 
 .headings {
   font-family: Cagliostro, sans-serif;
-  color: #D8CB2F;
+  color: #d8cb2f;
 }
 
 .body-copy {
   font-family: Roboto, sans-serif;
-  color: #7C4800;
+  color: #7c4800;
 }
 
 .light-green {
@@ -17,6 +17,7 @@ html {
 }
 
 @media only screen and (min-width: 20em) {
+
   .text {
     position: absolute;
     right: 8.5em;
@@ -26,6 +27,7 @@ html {
 }
 
 @media only screen and (min-width: 25em) {
+
   .text {
     position: absolute;
     right: 11.3em;
@@ -35,6 +37,7 @@ html {
 }
 
 @media only screen and (min-width: 38em) {
+
   .text {
     position: absolute;
     right: 20em;
@@ -44,6 +47,7 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
   .text {
     position: absolute;
     right: 13em;
@@ -52,8 +56,8 @@ html {
 
 }
 
-
 @media only screen and (min-width: 90em) {
+
   .text {
     position: absolute;
     right: 11em;
